@@ -1,0 +1,605 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: beige;
+    background-position: center;
+}
+.logo img{
+    float: left;
+    width: 300px;
+    height: auto;
+    margin-top: 25px;
+}
+.navbar{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(2, 2, 32);
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+#icon{
+    color: black;
+    font-size: 25px;
+    font-weight: 700;
+    position: relative;
+    bottom: 13px;
+    padding-left: 10px;
+    display: none;
+}
+
+.Penguin-Slide{
+    max-width: 1200px;
+    height: 500px;
+    background-color:  antiquewhite;
+    border-radius: 1em;
+    margin-left: 200px;
+}
+.col-md-5{
+    width: 400px;
+}
+.carousel-item{
+    margin: 10px;
+}
+.main{
+    height: 100px;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+.WOMAN{
+    float: left;
+    width: 40%;
+}
+.WOMAN img{
+    width: 100%;
+    margin-left: 250px;
+
+}
+.container{
+    max-width: 1200px;
+    margin-top: 30px;
+    height: 500px;
+    align-items: center;
+}
+.name{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.highlight{
+    color: rgb(6, 6, 95);
+}
+p{
+    font-size: 20px;
+    color: black;
+}
+.btn-color{
+    margin-top: 50px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    background-color: rgb(94, 126, 30);
+    border: 0;
+    border-radius: 1em;
+    width: 200px;
+    height: 70px;
+}
+.card-img-top{
+    height: 250px;
+    width: 300px;
+    background-color: whitesmoke;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 1em;
+}
+.card-container{
+    max-width: 1200px;
+    margin-top: 20px;
+    height: 800px;
+    align-items: center;
+    background-color: white;
+    margin: 100px 200px;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+}
+.card{
+    margin: 10px;
+    border: 0;
+}
+.card-text{
+    margin: 15px;
+}
+h4{
+    margin: 15px;
+    color: rgb(6, 6, 95);
+    font-weight: bold;
+}
+.card-footer{
+    display: inline-block;
+    height: 150px;
+    padding: 20px 40px;
+    border: 0;
+}
+.price{
+    width: 30%;
+}
+.buttonN{
+    width: 100%;
+    position: relative;
+    left: 130px;
+    bottom: 50px;
+}
+#price{
+    color: orangered;
+    font-size: 40px;
+    position: relative;
+    top: 15px;
+}
+#btn-color{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+    background-color: rgb(94, 126, 30);
+    border: 0;
+    border-radius: 10px;
+    width: 200px;
+    height: 70px;    
+}
+.image-container{
+    max-width: 1200px;
+    margin-top: 20px;
+    margin: 70px;
+    align-items: center;
+}
+#product{
+    height: 125px;
+    width: 110px;
+    margin-top: 20px;
+}
+.left{
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+    padding-left: 2%;
+
+}
+
+.left img{
+    height: 620px;
+    width: 600px;
+    align-items: center;
+}
+@media (max-width: 991.98px){
+    .logo img{
+        width: 30%;
+    }
+    .navbar{
+        font-size: 14px;
+        text-align: center;
+        background-color:paleturquoise;
+    }
+    ul li a{
+        font-size: 16px;
+    }
+    .Penguin-Slide{
+        height: 300px;
+        text-align: center;
+        margin: 20px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .price{
+        font-size: 20px;
+    }
+    .col-md-5{
+        width: 40%;
+    }
+    .WOMAN img{
+        width: 80%;
+    }
+    .container{
+        height: 300px;
+        margin: 10px;
+    }
+    .btn-color{
+        width: 100px;
+        height: 50px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .card-container{
+        max-width: 990px;
+        margin: 20px;
+        width: 800px;
+        height: 500px;
+        align-items: center;
+        margin: 100px;
+        box-shadow: 5px 5px 10px gray;
+        border-radius: 10px;
+    }
+    .card-img-top{
+        height: 150px;
+        width: 200px;
+        align-items: center;
+        padding-left: 10px;
+        margin: 20px;
+    }
+    h4{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .card-text{
+        font-size: 14px;
+    }
+    #price{
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    #btn-color{
+        font-size: 15px;
+        width: 100px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    .card-footer{
+        display: inline-block;
+        width: 250px;
+        height: 80px;
+        padding: 10px;
+    }
+    .image-container{
+        max-width: 990px;
+        margin-top: 20px;
+        margin: 70px;
+        align-items: center;
+    }
+    .card-division{
+        height: 130px;
+        width: 380px;
+    }
+    #product{
+        height: 80px;
+        width: 100px;
+        margin-top: 20px;
+    }
+    .left{
+        float: left;
+        width: 40%;
+        margin-left: 10%;
+        padding-left: 2%;
+    
+    }
+    .left img{
+        height: 450px;
+        width: 300px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 767.98px){
+    .navbar{
+        font-size: 14px;
+        text-align: center;
+        background-color:plum;
+    }
+    .navbar #icon{
+        display: block;
+
+    }
+    ul li a{
+        font-size: 16px;
+        position: fixed;
+        width: 100%;
+    }
+    .Penguin-Slide{
+        height: 300px;
+        text-align: center;
+        margin: 20px;
+        display: inline-block;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 15px;  
+    }
+    p{
+        font-size: 12px;
+    }
+    .price{
+        font-size: 17px;
+    }
+    #tab{
+        display: inline-block;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .col-md-7{
+        width: 50%;
+        margin-top: 10px;
+    }
+    .carousel-item{
+        margin: 5px;
+    }
+    .col-md-5{
+        width: 40%;
+        margin-bottom: 80px;
+    }
+    .WOMAN img{
+        width: 90%;
+        margin-left: 100px;
+    }
+    .container{
+        height: 300px;
+        margin: 10px;
+    }
+    .btn-color{
+        width: 70px;
+        height: 35px;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .card-container{
+        max-width: 766px;
+        margin: 25px 20px;
+        width: 100%;
+        height: 400px;
+        align-items: center;
+        box-shadow: 5px 5px 10px gray;
+        border-radius: 10px;
+        padding: 20px 10px;
+    }
+    .card-img-top{
+        height: 100px;
+        width: 130px;
+        align-items: center;
+        padding-left: 5px;
+        margin: 10px;
+    }
+    h4{
+        font-size: 15px;
+        margin-top: 10px;
+        position: relative;
+        right: 20px;
+
+    }
+    .card-text{
+        font-size: 14px;
+        position: relative;
+        right: 20px;
+    }
+    #price{
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .price{
+        position: relative;
+        bottom: 10px;
+    }
+    #btn-color{
+        font-size: 12px;
+        width: 80px;
+        height: 35px;
+        position: relative;
+        top: 18px;
+        right: 55px;
+    }
+    .card-footer{
+        display: inline-block;
+        width: 180px;
+        height: 50px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 1em;
+    }
+    .image-container{
+        max-width: 766px;
+        margin: 20px;
+        align-items: center;
+        padding-right: 70px;
+        left: 50px;
+    }
+    .card-division{
+        height: 100px;
+        width: 320px;
+    }
+    #product{
+        height: 50px;
+        width: 70px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+    .col-md-8{
+        position: relative;
+        left: 68px;
+        bottom: 100px;
+    }
+    .left{
+        float: left;
+        width: 40%;
+        margin-left: 15%;
+        padding-left: 5%;
+    }
+    .left img {
+        height: 350px;
+        width: 250px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+}
+    
+@media (max-width: 540.98px){
+    .navbar {
+        font-size: 14px;
+        text-align: center;
+        background-color: wheat;
+    }
+    .navbar #icon{
+        display: block;
+
+    }
+    ul li a{
+        font-size: 16px;
+        position: fixed;
+        width: 100%;
+    }
+    .Penguin-Slide{
+        text-align: center;
+        display: block;
+    }
+    .col-md-5{
+        width: 400px;
+        display: block;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 15px;  
+    }
+    p{
+        font-size: 12px;
+    }
+    .price{
+        font-size: 17px;
+    }
+    #tab{
+        display: inline-block;
+        padding: 10px;
+        margin-bottom: 5px;
+    }
+    .col-md-7{
+        width: 50%;
+        position: relative;
+        bottom: 40px;
+    }
+    .col-md-5{
+        width: 40%;
+        margin-bottom: 80px;
+    }
+    .WOMAN img{
+        width: 90%;
+        margin-left: 100px;
+        display: block;
+    }
+    .container{
+        height: 300px;
+        margin: 10px;
+        display: block;
+    }
+    .btn-color{
+        width: 80px;
+        height: 35px;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .card-container{
+        max-width: 540px;
+        width: 100%;
+        height: 1200px;
+        align-items: center;
+        box-shadow: 5px 5px 10px gray;
+        border-radius: 10px;
+        padding-bottom: 10px;
+        display: inline-block;
+    }
+    .card-group{
+        height: 80%;
+    }
+    .card-img-top{
+        height: 180px;
+        width: 80%;
+    }
+    .card-img-top h4 #btn-color{
+        padding: 5px;
+    }
+    h4{
+        font-size: 15px;
+    }
+    .card-text{
+        font-size: 14px;
+    }
+    #price{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .price{
+        position: relative;
+        bottom: 10px;
+    }
+    #btn-color{
+        font-size: 13px;
+        width: 80px;
+        height: 35px;
+        position: relative;
+        top: 18px;
+        right: 55px;
+    }
+    .card-footer{
+        display: inline-block;
+        width: 180px;
+        height: 50px;
+        position: relative;
+        left: 10px;
+    }
+    .image-container{
+        max-width: 540px;
+        margin: 20px;
+        align-items: center;
+        padding-right: 70px;
+        left: 50px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .card-division{
+        height: 100px;
+        width: 310px;
+        display: block;
+    }
+    #product{
+        height: 50px;
+        width: 70px;
+        margin-top: 10px;
+        padding-left: 5px;
+    }
+    .col-md-8{
+        position: relative;
+        left: 68px;
+        bottom: 100px;
+    }
+    .left {
+        float: left;
+        width: 40%;
+        margin-left: 15%;
+        padding-left: 5%;
+        display: block;
+    }
+    .left img {
+        height: 350px;
+        width: 250px;
+        margin-bottom: 20px;
+        align-items: center;
+    }
+}
